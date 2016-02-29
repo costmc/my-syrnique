@@ -59,10 +59,10 @@ of those sections to manage the look and feel of the site. */
 
 
 .my-panel-2 {
-  padding: 5px; /*HM*/
-  border-color: #fff;
-  color: #fff;
-  background-color: rgba(117, 59, 33, 0.84);  
+  	border-color: #FFF;
+  	color: #FFF;
+  	background-color: rgba(117, 59, 33, 0.84);
+  	padding: 1%;
 }
 
 .my-panel-2 > .panel-heading {
@@ -85,15 +85,18 @@ of those sections to manage the look and feel of the site. */
 /*  border-top-color: #f7e1b5;
 */}
 
+/*.col-centered {
+	display: inline-block;
+	float: none;
+}*/
 .cool-jumbotron {
-    padding: 20px;
-    color: #fff4f2;
-    background-color: rgba(43, 42, 43, 0.8);
-    border-color: #e9e6e8;
-
+    padding: 1%;
+    color: #FFFFFF;
+    background-color: rgba(24, 21, 33, 0.78);
+    border-color: #FFFFFF;
 }
 .cool-jumbotron hr {
-  border-top-color: #b5aaaa;
+    border-top-color: #BFBFBF;
 }
 
 .sixth-jumbotron {
