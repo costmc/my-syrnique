@@ -3,7 +3,8 @@
   text-align: center;
 }
 .placeholders h4 {
-  margin-bottom: 0;
+    margin-bottom: 0;
+    color: #fff;
 }
 .placeholder {
   margin-bottom: 20px;
@@ -143,14 +144,18 @@ of those sections to manage the look and feel of the site. */
     background-color: rgba(0,0,0,0.7);
 }
 
+.white-header {
+    color: #ffffff;
+}
+
 #white-header {
     color: #ffffff;
 }
 
 .no-colour {
     background-color: rgba(0,0,0,0);
-    min-height: 780px;    
-}
+/*    min-height: 780px;    
+*/}
 
 
 #intro-section {
@@ -190,7 +195,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 #fourth-section{
-    height: 80%;
     background: #fff url('..//img/4.jpg') no-repeat;
     background-size: cover;   
 }
