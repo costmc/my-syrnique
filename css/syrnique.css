@@ -1,23 +1,3 @@
-.placeholders {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.placeholders h4 {
-    margin-bottom: 0;
-    color: #fff;
-}
-.placeholder {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.placeholder img {
-  display: inline-block;
-  border-radius: 50%;
-}
-
-
-
-
 /*!
  * Based on Scrolling Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -95,8 +75,8 @@ of those sections to manage the look and feel of the site. */
 .my-panel-2 {
   	border-color: #FFF;
   	color: #FFF;
-  	background-color: rgba(117, 59, 33, 0.84);
-    padding: 1%;
+/*  	background-color: rgba(117, 59, 33, 0.84);
+    padding: 1%;*/
 }
 
 .my-panel-2 > .panel-heading {
@@ -132,6 +112,12 @@ of those sections to manage the look and feel of the site. */
 }
 .cool-jumbotron hr {
     border-top-color: #BFBFBF;
+}
+
+.second-jumbotron {
+   color: #FFFFFF;
+    background-color: rgba(24, 21, 33, 0.78);
+    border-color: #FFFFFF;
 }
 
 .sixth-jumbotron {
@@ -189,18 +175,18 @@ of those sections to manage the look and feel of the site. */
 }
 
 /*mobile*/
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     .second-section {
         height: auto;
     }
-}
+}*/
 
 /*desktop*/
-@media (min-width: 993px) {
+/*@media (min-width: 993px) {
     .second-section {
         height: 100%;
     }
-}
+}*/
 
 #second-section {
     background: #fff url('../img/2.jpg') no-repeat;
@@ -208,6 +194,30 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
 }
 
+@media (min-width: 40em) {
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
 
 #third-section {
     padding-top: 5%;
@@ -220,6 +230,23 @@ of those sections to manage the look and feel of the site. */
 #fourth-section{
     background: #fff url('..//img/4.jpg') no-repeat;
     background-size: cover;   
+}
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+    color: #fff;
+}
+.placeholder {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
 }
 
 #fifth-section {
