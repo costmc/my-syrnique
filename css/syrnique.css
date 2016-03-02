@@ -1,3 +1,22 @@
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+
 /*!
  * Based on Scrolling Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -62,7 +81,7 @@ of those sections to manage the look and feel of the site. */
   	border-color: #FFF;
   	color: #FFF;
   	background-color: rgba(117, 59, 33, 0.84);
-  	padding: 1%;
+    padding: 1%;
 }
 
 .my-panel-2 > .panel-heading {
@@ -89,6 +108,7 @@ of those sections to manage the look and feel of the site. */
 	display: inline-block;
 	float: none;
 }*/
+
 .cool-jumbotron {
     padding: 1%;
     color: #FFFFFF;
@@ -104,6 +124,12 @@ of those sections to manage the look and feel of the site. */
     max-height: 90%;
     background: rgba(230, 230, 230, 0.7);
 }
+
+.third-jumbotron {
+    padding-top: 2%;
+    background-color: #e8eced;
+}
+
 .intro-section,
 .second-section,
 .third-section,
@@ -125,23 +151,39 @@ of those sections to manage the look and feel of the site. */
     background-color: rgba(0,0,0,0);
     min-height: 780px;    
 }
+
+
 #intro-section {
     padding-top: 100px;
     background: #fff url('../img/1.jpg') no-repeat;
-    background-color: rgba(0,0,0,0);
     background-size: cover;
     background-attachment: fixed;
 }
+
+/*mobile*/
+@media (max-width: 992px) {
+    .second-section {
+        height: auto;
+    }
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+    .second-section {
+        height: 100%;
+    }
+}
+
 #second-section {
     background: #fff url('../img/2.jpg') no-repeat;
     padding-top: 50px;
-    height: 100%;
     background-size: cover;
 }
 
+
 #third-section {
-    padding-top: 150px;
-    height: 100%;
+    padding-top: 5%;
+    /*height: 100%;*/
     background: #fff url('../img/3.jpg') no-repeat;
     background-size: cover;
 
@@ -172,6 +214,7 @@ of those sections to manage the look and feel of the site. */
     height:10%;
     width: 10%;
 }
+
 
 /*Custom Shadows*/
 .box-shadow--2dp {
