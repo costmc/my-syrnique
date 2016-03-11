@@ -1,0 +1,355 @@
+/*!
+ * Based on Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+h1 {
+    font-family: OldCyr;
+}
+
+body {
+    width: 100%;
+    height: 100%;      
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+/*.my-panel-1 {*/
+/*  border-color: #faebcc;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  padding: 5px;*/ /*HM*/
+}
+/*
+.my-panel-1 h3 {
+    margin-top: 0px;
+}
+
+.my-panel-1 i {
+    margin-top: 0.2em;
+}*/
+
+
+/*.my-panel-1 > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.my-panel-1 > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #faebcc;
+}
+.my-panel-1 > .panel-heading .badge {
+  color: #fcf8e3;
+  background-color: #8a6d3b;
+}
+.my-panel-1 > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #faebcc;
+}*/
+/*
+.my-panel-1 hr {
+  border-top-color: #f7e1b5;
+}*/
+
+
+.my-panel-2 {
+  	border-color: #FFF;
+  	color: #FFF;
+/*  	background-color: rgba(117, 59, 33, 0.84);
+    padding: 1%;*/
+}
+
+.my-panel-2 > .panel-heading {
+/*  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;*/
+}
+.my-panel-2 > .panel-heading + .panel-collapse > .panel-body {
+/*  border-top-color: #faebcc;*/
+}
+.my-panel-2 > .panel-heading .badge {
+/*  color: #fcf8e3;
+  background-color: #8a6d3b;*/
+}
+.my-panel-2 > .panel-footer + .panel-collapse > .panel-body {
+/*  border-bottom-color: #faebcc;
+*/}
+
+.my-panel-2 hr {
+/*  border-top-color: #f7e1b5;
+*/}
+
+/*.col-centered {
+	display: inline-block;
+	float: none;
+}*/
+
+.cool-jumbotron {
+    padding: 1%;
+    color: #FFFFFF;
+    background-color: rgba(24, 21, 33, 0.78);
+    border-color: #FFFFFF;
+}
+.cool-jumbotron hr {
+    border-top-color: #BFBFBF;
+}
+
+.second-jumbotron {
+    color: #FFFFFF;
+    background-color: rgba(24, 21, 33, 0.78);
+    border-color: #FFFFFF;
+}
+
+
+.black-jumbotron {
+    color: #FFFFFF;
+    background-color: rgba(24, 21, 33, 0.78);
+    border-color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.black-jumbotron h3 {
+    margin-top: 0px;
+}
+
+.black-jumbotron i {
+    margin-top: 0.2em;
+}
+
+.black-jumbotron i {
+    color: #000;
+}
+
+.sixth-jumbotron {
+    padding: 0px;
+    max-height: 90%;
+    background: rgba(230, 230, 230, 0.7);
+}
+
+.third-jumbotron {
+    padding-top: 2%;
+    background-color: #e8eced;
+}
+
+.fourth-jumbotron {
+    margin-bottom: 0px;
+}
+
+.fourth-section .row {
+    margin-right: 0px;
+}
+
+
+.intro-section,
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixth-section {
+    text-align: center;
+}
+
+.dark {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.white-header {
+    color: #ffffff;
+}
+
+#white-header {
+    color: #ffffff;
+}
+
+.no-colour {
+    background-color: rgba(0,0,0,0);
+/*    min-height: 780px;    
+*/}
+
+
+#intro-section {
+    padding-top: 100px;
+    background: #fff url('../img/1.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*mobile*/
+/*@media (max-width: 992px) {
+    .second-section {
+        height: auto;
+    }
+}*/
+
+/*desktop*/
+/*@media (min-width: 993px) {
+    .second-section {
+        height: 100%;
+    }
+}*/
+
+#second-section {
+    background: #fff url('../img/2.jpg') no-repeat;
+    padding-top: 50px;
+    background-size: cover;
+}
+
+@media (min-width: 40em) {
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.featurette-divider {
+  margin: 3.5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+#third-section {
+    padding-top: 5%;
+    /*height: 100%;*/
+    background: #fff url('../img/3.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+#fourth-section{
+    background: #fff url('..//img/4.jpg') no-repeat;
+    background-size: cover;   
+}
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+    color: #fff;
+}
+.placeholder {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#fifth-section {
+    padding-top: 50px;3
+    height: 100%;
+    background: #fff url('../img/4.jpg') no-repeat;
+    background-size: cover;
+}
+
+#sixth-section {
+    padding-top: 50px;
+    background: #fff url('../img/5.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+.icon-img {
+    height:10%;
+    width: 10%;
+}
+
+
+/*Custom Shadows*/
+.box-shadow--2dp {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
+}
+.box-shadow--3dp {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12)
+}
+.box-shadow--4dp {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
+}
+.box-shadow--6dp {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2)
+}
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
+}
+.box-shadow--16dp {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+
+
+/*Circle Button at the beginning*/
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}

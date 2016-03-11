@@ -1,24 +1,14 @@
-@font-face {
-    font-family: HelveticaNeue;
-    src: url(/../fonts/HelveticaNeueCyr-Thin.otf) format('otf');
-    font-style: normal;
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: HelveticaNeue;
-    src: url(/../HelveticaNeueCyr-ThinItalic.otf) format('otf');
-    font-style: italic;
-    font-weight: 100;
-}
 
 @font-face{
     font-family: OldCyr;
-    src: url(/../fonts/cyrillic_old.otf) format('ttf');
-    font-weight: 100;
+    src: url(../fonts/cyrillic_old.woff) format('woff'), url(../fonts/cyrillic_old.svg#) format('svg'), url(../fonts/cyrillic_old.ttf) format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
 .Old-Cyrillic {
-    font-family: OldCyr;    
+    font-family: OldCyr;
+    font-weight: normal;
+    font-style: normal;
+
 }
