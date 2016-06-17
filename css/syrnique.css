@@ -1,8 +1,7 @@
-/*!
+/* 
+ * Autor: Vlad Md Golam (costmc.github.io), 2016;
  * Based on Scrolling Nav HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+*/
 
 
 h1 {
@@ -36,91 +35,15 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-/*.my-panel-1 {*/
-/*  border-color: #faebcc;
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  padding: 5px;*/ /*HM*/
-}
-/*
-.my-panel-1 h3 {
-    margin-top: 0px;
-}
-
-.my-panel-1 i {
-    margin-top: 0.2em;
-}*/
-
-
-/*.my-panel-1 > .panel-heading {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
-.my-panel-1 > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #faebcc;
-}
-.my-panel-1 > .panel-heading .badge {
-  color: #fcf8e3;
-  background-color: #8a6d3b;
-}
-.my-panel-1 > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #faebcc;
-}*/
-/*
-.my-panel-1 hr {
-  border-top-color: #f7e1b5;
-}*/
-
-
-.my-panel-2 {
-  	border-color: #FFF;
-  	color: #FFF;
-/*  	background-color: rgba(117, 59, 33, 0.84);
-    padding: 1%;*/
-}
-
-.my-panel-2 > .panel-heading {
-/*  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;*/
-}
-.my-panel-2 > .panel-heading + .panel-collapse > .panel-body {
-/*  border-top-color: #faebcc;*/
-}
-.my-panel-2 > .panel-heading .badge {
-/*  color: #fcf8e3;
-  background-color: #8a6d3b;*/
-}
-.my-panel-2 > .panel-footer + .panel-collapse > .panel-body {
-/*  border-bottom-color: #faebcc;
-*/}
-
-.my-panel-2 hr {
-/*  border-top-color: #f7e1b5;
-*/}
-
-/*.col-centered {
-	display: inline-block;
-	float: none;
-}*/
-
-.cool-jumbotron {
-    padding: 1%;
+.main-jumbotron {
     color: #FFFFFF;
     background-color: rgba(24, 21, 33, 0.78);
     border-color: #FFFFFF;
 }
-.cool-jumbotron hr {
+
+.main-jumbotron hr {
     border-top-color: #BFBFBF;
 }
-
-.second-jumbotron {
-    color: #FFFFFF;
-    background-color: rgba(24, 21, 33, 0.78);
-    border-color: #FFFFFF;
-}
-
 
 .black-jumbotron {
     color: #FFFFFF;
@@ -195,6 +118,10 @@ of those sections to manage the look and feel of the site. */
     background: #fff url('../img/1.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.logo {
+    margin-top: 10px;
 }
 
 /*mobile*/
