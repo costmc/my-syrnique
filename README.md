@@ -1,3 +1,3 @@
-# [Vlad Md Golam](vk.com/costmc) -- [SYRNIQUE PRJ](costmc.github.io)
+# [Vlad Md Golam](mdgolam.github.io) - [SYRNIQUE PRJ](http://mdgolam.github.io/my-syrnique/)
 
-Пробуем
+My first static website attempt. Based on bootstrap. Funny
